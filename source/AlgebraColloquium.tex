@@ -32,7 +32,7 @@
 \section*{\LARGE\centering \underline{Модуль 1}}
 
 \addcontentsline{toc}{subsection}{ 1.1. Дать определение умножения матриц. Коммутативна ли эта операция? Ответ пояснить. }
-\section*{\LARGE 1.1. Дать определение умножения матриц. Коммутативна ли эта операция? Ответ пояснить.}
+\section*{\LARGE \textbf{1.1. Дать определение умножения матриц. Коммутативна ли эта операция? Ответ пояснить.}}
 
 Пусть даны две прямоугольных матрицы $A$ и $B$ размерности $n \times m$ и $m \times k$ соответственно. Произведением матриц $A$ и $B$ (обозначается как $A \times B$ или $AB$) называется такая матрица $C$ размерности $n \times k$, что её элементы задаются формулой 
 $$
@@ -267,7 +267,7 @@ $$
 \addcontentsline{toc}{subsection}{ 2.2. Сформулируйте теорему о структуре общего решения неоднородной системы линейных алгебраических уравнений.  }
 \section*{\LARGE 2.2. Сформулируйте теорему о структуре общего решения неоднородной системы линейных алгебраических уравнений. }
 
-Пусть $f_1, f_2, ..., f_k$ ($k = n - r$) -- ФСР однородной СЛАУ $Ax = 0$, а также известно некоторое частное решение $x_0$ неоднородной СЛАУ $Ax = b$. Тогда $x = x_0 + \lambda_1f_1 + \lambda_2f_2 + ... + \lambda_kf_3$ является решением неоднородной СЛАУ $Ax = b$ при любых $\lambda_1, ..., \lambda_k$.
+Пусть $f_1, f_2, ..., f_k$ ($k = n - r$) -- ФСР однородной СЛАУ $Ax = 0$, а также известно некоторое частное решение $x_0$ неоднородной СЛАУ $Ax = b$. Тогда $x = x_0 + \lambda_1f_1 + \lambda_2f_2 + ... + \lambda_kf_k$ является решением неоднородной СЛАУ $Ax = b$ при любых $\lambda_1, ..., \lambda_k$.
 
 \addcontentsline{toc}{subsection}{ 2.3. Что такое алгебраическая и тригонометрическая формы записи комплексного числа? }
 \section*{\LARGE 2.3. Что такое алгебраическая и тригонометрическая формы записи комплексного числа? }
@@ -279,7 +279,7 @@ $$
 \newline 
 \begin{wrapfigure}{l}{0.34\textwidth}
     \centering
-    \includegraphics[width=0.34\textwidth]{images/complex.jpg}
+    \includegraphics[width=0.34\textwidth]{complex.jpg}
 \end{wrapfigure} Здесь $r$ -- длина радиус-вектора числа $z$ на плоскости комплексных чисел, $\varphi$ -- угол между радиус-вектором $z$ и действительной осью.
 $$r = |z| = \sqrt{a^2 + b^2}$$
 $$\cos{\varphi} = \frac{a}{r}, \;\;\;\; \sin{\varphi} = \frac{b}{r}$$
@@ -308,7 +308,7 @@ $$ \frac{z_1}{z_2} = \frac{r_1}{r_2}(\cos{(\varphi_1 - \varphi_2)} + i\sin{(\var
 
 \begin{wrapfigure}{r}{0.2\textwidth}
     \centering
-    \includegraphics[width=0.2\textwidth]{images/sopr_complex.png}
+    \includegraphics[width=0.2\textwidth]{sopr_complex.png}
 \end{wrapfigure}
 Сопряженным числом $\bar{z}$ для комплексного числа $z$ называется такое число, которое симметрично $z$ относительно вещественной оси.
 $$z = a + ib, \;\; \bar{z} = a - ib$$. 
@@ -322,7 +322,7 @@ $$
 \section*{\LARGE 2.7. Выпишите формулу Муавра.  }
 
 Пусть $z = r(\cos{\varphi} + i\sin{\varphi})$, тогда
-$$ z^n =  r^n(\cos{(n\varphi)} + i\sin{(n\varphi)})$$
+$$ z^n =  r^n(\cos{(n\varphi)} + i\sin{(n\varphi)}),\; n \in \mathbb{Z}$$
 
 \addcontentsline{toc}{subsection}{ 2.8. Как найти комплексные корни $n$-ой степени из комплексного числа? Сделайте эскиз, на котором отметьте исходное число и все корни из него.  }
 \section*{\LARGE 2.8. Как найти комплексные корни $n$-ой степени из комплексного числа? Сделайте эскиз, на котором отметьте исходное число и все корни из него.  }
@@ -332,7 +332,7 @@ $$
 \sqrt[n]{z} = \{\sqrt[n]{r}\left(\cos{\left(\frac{\varphi + 2\pi k}{n}\right) + i\sin{\left(\frac{\varphi + 2\pi k}{n}\right)}}\right),\; k = \overline{0, n-1}\}
 $$
 Пример: $\sqrt[6]{1}$
-$$ \includegraphics[width=0.35\textwidth]{images/squareroot.png}$$
+$$ \includegraphics[width=0.35\textwidth]{squareroot.png}$$
 
 \addcontentsline{toc}{subsection}{ 2.9. Сформулируйте основную теорему алгебры. Сформулируйте теорему Безу. }
 \section*{\LARGE 2.9. Сформулируйте основную теорему алгебры. Сформулируйте теорему Безу. }
@@ -377,7 +377,7 @@ $$ a(x - x_1)(x - x_2)...(x - x_n) $$
 
 \begin{wrapfigure}{r}{0.2\textwidth}
     \centering
-    \includegraphics[width=0.2\textwidth]{images/right_troika.png}
+    \includegraphics[width=0.2\textwidth]{right_troika.png}
 \end{wrapfigure}
 Вектор $\vec{c}$ назвается векторным произведением векторов $\vec{a}$ и $\vec{b}$ если:
 \newline 1) $|\vec{c}| = |\vec{a}|\cdot|\vec{b}|\cdot\sin{\varphi}$, где $\varphi$ -- угол между $\vec{a}$ и $\vec{b}$
@@ -773,8 +773,8 @@ $$K_1 / Kerf \cong Imf$$
 \section*{\LARGE 3.26. Дайте определение алгебраического элемента над полем. }
 Элемент поля $\alpha \in P_2$ называется алгебраическим над полем $P_1 \subseteq P_2$, если $\exists f(x) \in P_1[x] : (f(x) \ne 0) \wedge (f(\alpha) = 0)$.
 
-\addcontentsline{toc}{subsection}{ 3.27. Сформулируйте утверждение о том, что любое конечное поле может быть реализовано как факторкольца кольца многочленов по некоторому идеалу.  }
-\section*{\LARGE 3.27. Сформулируйте утверждение о том, что любое конечное поле может быть реализовано как факторкольца кольца многочленов по некоторому идеалу. }
+\addcontentsline{toc}{subsection}{ 3.27. Сформулируйте утверждение о том, что любое конечное поле может быть реализовано как факторкольцо кольца многочленов по некоторому идеалу.  }
+\section*{\LARGE 3.27. Сформулируйте утверждение о том, что любое конечное поле может быть реализовано как факторкольцо кольца многочленов по некоторому идеалу. }
 Любое конечное поле $\mathbb{F}_q$ (где $q = p^n,\, p$ -- простое) можно реализовать в виде $\mathbb{Z}_p[x] / \langle h(x) \rangle$, где $h(x)$ -- неприводимый многочлен степени $n$ над $\mathbb{Z}_p$.
 
 \addcontentsline{toc}{subsection}{ 3.28. Сформулируйте утверждение о том, сколько элементов может быть в конечном поле.  }
@@ -1337,7 +1337,6 @@ $$
 \newpage
 \addcontentsline{toc}{section}{\LARGE \underline{ДОКАЗАТЕЛЬСТВА} }
 \section*{\LARGE\centering \underline{ДОКАЗАТЕЛЬСТВА}}
-
 \addcontentsline{toc}{section}{\Large \underline{Модуль 3} }
 \section*{\LARGE\centering \underline{Модуль 3}}
 
@@ -1351,7 +1350,7 @@ $$
 $ $\indent\underline{Необходимость:}
 \newline Инъективность $f$ означает, что $\forall x_1, x_2 \in G \;\; x_1 \ne x_2 \Rightarrow f(x_1) \ne f(x_2)$ и мы знаем, что $f(e_G) = e_{G'}$ (по свойствам гомоморфизма). Следовательно, \newline $\forall x \in G \;\; x \ne e_G \Rightarrow f(x) \ne e_{G'}$, из чего следует, что в ядре только $e_G$, т.е. ядро тривиально.
 \newline \indent \underline{Достаточность:}
-\newline Пусть $f$ не инъективен, т.е. $\exists x_1 \ne x_2 : f(x_1) = f(x_2)$. Тогда $f(x_1) \cdot (f(x_2))^{-1} = \; = f(x_2) \cdot (f(x_2))^{-1} = e_{G'} \Rightarrow f(x_1 \cdot x_2^{-1}) = e_{G'}$ (так как $f$ гомоморфизм) $\Rightarrow x_1\cdot x_2^{-1} \in Kerf \Rightarrow x_1\cdot x_2 = e_{G}$ (так как ядро тривиально) $\Rightarrow x_1 = x_2$ -- противоречие. Значит, $f$ инъективно, что и требовалось доказать.
+\newline Пусть $f$ не инъективен, т.е. $\exists x_1 \ne x_2 : f(x_1) = f(x_2)$. Тогда $f(x_1) \cdot (f(x_2))^{-1} = \; = f(x_2) \cdot (f(x_2))^{-1} = e_{G'} \Rightarrow f(x_1 \cdot x_2^{-1}) = e_{G'}$ (так как $f$ гомоморфизм) $\Rightarrow x_1\cdot x_2^{-1} \in Kerf \Rightarrow x_1\cdot x_2^1 = e_{G}$ (так как ядро тривиально) $\Rightarrow x_1 = x_2$ -- противоречие. Значит, $f$ инъективно, что и требовалось доказать.
 \newline $ $
 \newline Необходимость и достаточность выполняются, значит утверждения равносильны.
 
@@ -1415,7 +1414,7 @@ $Inn$ -- подгруппа всех внутренних автоморфизм
 \subsection*{\Large \underline{\textit{Формулировка: }}}
 Любая конечная группа порядка $n$ изоморфна некоторой подгруппе группы перестановок $S_n$.
 
-\subsection*{\Large \underline{\textit{Доказательство:} }}
+\subsection*{\Large \underline{\textit{Доказательство: }}}
 Пусть $|G| = n$. $\forall a \in G$ рассмотрим отображение $L_a : G \rightarrow G$ по формуле: $L_a(g) = ag$.
 \newline Пусть $e, g_1, ..., g_{n-1}$ -- элементы группы. Тогда $a, ag_1, ..., ag_{n - 1}$ -- те же элементы, но в другом порядке ($ag_i = ag_j \Rightarrow g_i = g_j$, так как $\exists a^{-1}\,\forall a \in G$). Значит, $L_a$ -- биективное отображение $G$ в себя (то есть перестановка элементов $g$). Рассмотрим множество этих отображений. Эти отображения можно умножать (взяв композицию), есть единичный элемент $L_e$, обратным к $L_a$ является $L_{a^{-1}}$, из ассоциативности в $G$ $L_{ab}(g) = (ab)g = a(bg) = L_a(L_b(g))$ -- умножение ассоциативно. Значит, множество $L_e, L_{g_1}, ..., L_{g_{n-1}}$ образует подгруппу $H$ в множестве всех биективных отображений $G$ в себя, то есть $S(G)$. А изоморфизм устроен так: $a \mapsto L_a$.
 
@@ -1434,7 +1433,7 @@ $Inn$ -- подгруппа всех внутренних автоморфизм
 \newline\indent 1) char$\mathbb{F} = p > 0 \Rightarrow \mathbb{F}_0 \cong \mathbb{Z}_p$. 
 \newline\indent 2) char$\mathbb{F} = 0 \Rightarrow \mathbb{F}_0 \cong \mathbb{Q}$. 
 
-\subsection*{\Large \underline{\textit{Доказательство: }}}
+\subsection*{\Large \underline{\textit{Доказательство:}}}
 Рассмотрим циклическую подгруппу <1> $\subseteq (\mathbb{F}, +)$, порожденную единицей поля (нейтральным элементом по умножению). Заметим, что |<1>| = char$\mathbb{F}$.
 \newline 1) Если char$\mathbb{F} = p > 0$, то <1> $\cong \mathbb{Z}_p$ -- поле $\Rightarrow \mathbb{F}_0 = $<1>$\cong \mathbb{Z}_p$.
 \newline 2) Если char$\mathbb{F} = 0$, то <1>$\cong \mathbb{Z}$ -- не поле. Но $\mathbb{F}_0$ содержит и обратные по умножению элементы, т.е. дроби вида $\frac{a}{b} : a,b \in$<1>, $b \ne 0$. Они образуют подполе, изоморфное $\mathbb{Q}$ (поле частных для кольца $\mathbb{Z}$).
@@ -1587,10 +1586,7 @@ $$
 \newline Скаляр $\lambda_0 \in \mathbb{F}$ является собственным значением линейного оператора $A$ (т.е. принадлежит его спектру) тогда и только тогда, когда $\mathcal{X}_A(\lambda_0) = 0$.
 
 \subsection*{\Large \underline{\textit{Доказательство: }}}
-\underline{Необходимость}:
-\newline Как мы помним, характеристическое уравнение есть $\mathcal{X}_A(\lambda) = \det{(A - \lambda E)} = 0$. Пусть $\lambda_0$ -- собственное значение оператора $A$, тогда $\exists x \ne 0 : Ax = \lambda_0 x \Rightarrow \newline \Rightarrow (A - \lambda_0 E)x = 0 \Rightarrow A - \lambda_0 E = 0 \Rightarrow \det{(A - \lambda_0 E)} = 0 \Rightarrow \mathcal{X}_A(\lambda_0) = 0$.
-\newline \underline{Достаточность}:
-\newline Пусть $\mathcal{X}_A(\lambda_0) = \det{(A - \lambda_0 E)} = 0$, из чего следует существование ненулевого решения СЛАУ $(A - \lambda_0 E)x = 0$. Этим ненулевым решением и будет собственный вектор, а $\lambda_0$, следовательно, является собственным значением.
+$\mathcal{X}_A(\lambda_0) = 0 \Leftrightarrow \det{(A - \lambda_0 E)} = 0 \Leftrightarrow$ СЛАУ $(A - \lambda_0 E)x = 0$ имеет ненулевое решение, то есть $x$ -- собственный вектор с собственным значением $\lambda_0$.
 
 \addcontentsline{toc}{subsection}{4.2. Сформулируйте и докажите утверждение о том, каким свойством обладают собственные векторы линейного оператора, отвечающие различным собственным значениям.  }
 \section*{\LARGE 4.2. Сформулируйте и докажите утверждение о том, каким свойством обладают собственные векторы линейного оператора, отвечающие различным собственным значениям.  }
